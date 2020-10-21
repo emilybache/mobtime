@@ -12,7 +12,7 @@ export const mobOrder = props =>
   h(
     base,
     {
-      title: 'Mob order',
+      title: 'Ensemble order',
     },
     [
       h(

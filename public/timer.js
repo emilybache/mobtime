@@ -190,7 +190,7 @@ app({
                       type: 'button',
                       onclick: [actions.SetTimerTab, 'mob'],
                     },
-                    'Edit Mob',
+                    'Edit Ensemble',
                   ),
                 },
                 "Who's Up",

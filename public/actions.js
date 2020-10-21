@@ -46,7 +46,7 @@ export const Init = (_, timerId) => ({
   mob: [],
   goals: [],
   settings: {
-    mobOrder: 'Navigator,Driver',
+    mobOrder: 'Typist,Navigator,Next',
     duration: 5 * 60 * 1000,
   },
   expandedReorderable: null,

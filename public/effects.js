@@ -127,7 +127,9 @@ export const UpdateTitleWithTime = fx(function UpdateTitleWithTimeFX(
 ) {
   // eslint-disable-next-line no-param-reassign
   documentElement.title =
-    remainingTime > 0 ? `${formatTime(remainingTime)} - mobtime` : 'mobtime';
+    remainingTime > 0
+      ? `${formatTime(remainingTime)} - ensembletime`
+      : 'ensembletime';
 });
 
 export const andThen = fx(function andThenFX(dispatch, { action, props }) {
