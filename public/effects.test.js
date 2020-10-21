@@ -261,7 +261,7 @@ test('can update the document title from remainingTime', t => {
     }),
   );
 
-  t.is(documentElement.title, '00:01 - mobtime');
+  t.is(documentElement.title, '00:01 - ensembletime');
 });
 
 test('can update the document title with no remaining time', t => {
@@ -274,7 +274,7 @@ test('can update the document title with no remaining time', t => {
     }),
   );
 
-  t.is(documentElement.title, 'mobtime');
+  t.is(documentElement.title, 'ensembletime');
 });
 
 test('can schedule the next action', t => {
