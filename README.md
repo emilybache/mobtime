@@ -43,3 +43,25 @@ Bug reports and suggestions are welcome, just create an issue. PRs are welcome, 
 ## License
 
 It's under [MIT](./LICENSE.md).
+
+
+## Setup
+''' Install Yarn
+ https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/
+
+Here are the key commands
+> curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+> echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+> sudo apt update
+> sudo apt install yarn
+
+After install, run yarn.
+> yarn test
+> yarn start
+
+Run tailwind
+> yarn tailwind:dev
+> or: yarn tailwind:prod
+
+other links
+> https://www.phusionpassenger.com/library/walkthroughs/basics/ruby/reloading_code.html
