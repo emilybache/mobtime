@@ -65,3 +65,11 @@ Run tailwind
 
 other links
 > https://www.phusionpassenger.com/library/walkthroughs/basics/ruby/reloading_code.html
+
+to run
+> sudo PORT:80 ENSEMBLE_HOST=0.0.0.0 node ./index.js
+
+example of how to run a service file to run on server
+> http://13.53.192.207/
+https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6
+
