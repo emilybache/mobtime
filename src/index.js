@@ -6,6 +6,7 @@ import { Websocket } from './websocket';
 import { update } from './update';
 
 const port = process.env.PORT || 1234;
+const host = process.env.ENSEMBLE_HOST || 'localhost';
 
 const Storage = storage.make();
 
@@ -18,7 +19,7 @@ app({
     Storage.store(state);
 
     return [
-      Http(Storage, Action, 'localhost', port),
+      Http(Storage, Action, host, port),
       ...state.connections.map((connection) => (
         Websocket(Action, connection.getWebsocket, connection.timerId)
       )),
