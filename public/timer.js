@@ -142,7 +142,7 @@ app({
                       state.mob.length > 0 &&
                       h(badge, {}, state.mob.length.toString()),
                   },
-                  'Mob',
+                  'Ensemble',
                 ),
                 h(
                   tab,
