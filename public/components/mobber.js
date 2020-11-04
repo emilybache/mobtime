@@ -32,7 +32,7 @@ export const mobber = props =>
               class: {
                 "uppercase": true,
                 'text-lg': true,
-                'font-extrabold': props.position !== 'mob',
+                'font-extrabold': props.position !== 'team',
                 'leading-none': true,
                 'mb-1': true,
               },
@@ -45,7 +45,7 @@ export const mobber = props =>
               class: {
                 'text-gray-500': !props.name,
                 'text-4xl': true,
-                'font-bold': props.position !== 'mob',
+                'font-bold': props.position !== 'team',
                 'leading-none': true,
                 "truncate": props.truncate,
               },
